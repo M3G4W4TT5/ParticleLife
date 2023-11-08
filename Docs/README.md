@@ -37,7 +37,7 @@ The project is designed with the MonoGame engine, mainly to use it's rendering c
 - **Single-threaded Architecture:** No matter the type of collision detection and partitioning strategy, the simulation's performance is severely limited by running on a single thread.  
 
 #### Built versions:
-- [Windows 32-bit](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_win-x86.zip)
+- Windows [32](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_win-x86.zip)/[64](https://github.com/4lexanderWatts/ParticleLife/blob/c60747c3a258db457b5ac9c014ac711f59555416/Build/ParticleLife_v0.1_win-x64.zip)-bit
 - [Portable](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_portable.zip)
 #### Dependencies:
 - [MonoGame](https://github.com/MonoGame/MonoGame)
