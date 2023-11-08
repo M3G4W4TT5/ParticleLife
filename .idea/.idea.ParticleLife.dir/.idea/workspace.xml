@@ -9,8 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/ParticlePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Physics/ParticlePhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/PhysicsEngine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Physics/PhysicsEngine.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,15 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.ParticleLifeSimulation">
+    <configuration name="Publish ParticleLifeSimulation to folder (1)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="Portable" target_folder="$PROJECT_DIR$/Build" target_framework="net6.0" uuid_high="6127831131528945452" uuid_low="9027312820341168481" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish ParticleLifeSimulation to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish produce_single_file="true" ready_to_run="true" runtime="win-x86" self_contained="true" target_folder="$PROJECT_DIR$/Build" target_framework="net6.0" uuid_high="6127831131528945452" uuid_low="9027312820341168481" />
+      <method v="2" />
+    </configuration>
     <configuration name="ParticleLifeSimulation" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -107,7 +113,7 @@
       <workItem from="1699386998052" duration="46000" />
       <workItem from="1699387646519" duration="724000" />
       <workItem from="1699390855677" duration="11633000" />
-      <workItem from="1699436973678" duration="17467000" />
+      <workItem from="1699436973678" duration="19056000" />
     </task>
     <servers />
   </component>
