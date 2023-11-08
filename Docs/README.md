@@ -23,7 +23,7 @@ The project is designed with the MonoGame engine, mainly to use it's rendering c
 
 `ModeManager` within SimulationManager keeps track of the available simulation modes and enables switching between them.
 
-`SimulationModeFactory` manages the creation of the various modes. These are created in `SimulationManager` and injected into `ModeManager` constructor, which in turn is injected into `SimulationManager`.
+`SimulationModeFactory` manages the creation of the various modes. These are instantiated in `SimulationEngine` and injected into the `ModeManager` constructor, which in turn is injected into `SimulationManager`.
 
 `PhysicsEngine` handles the updates for particle velocities and positions using `ParticlePhysics` which contains the actual updating logic, such as spatial partitioning (using `ISPacePartitioner FixedSizexGrid`), collision detection and force calculations.
 
