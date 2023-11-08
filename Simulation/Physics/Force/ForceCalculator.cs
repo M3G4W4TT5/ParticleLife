@@ -54,14 +54,14 @@ public class ForceCalculator
                                           float forceFactor)
     {
         // TODO: Change procedure such that forceEquation takes a Vector2 and directly modifies it.
-        // This will allow for more complex behaviours. Necessary for implementing planets, rotator etc.
+        /* This will allow for more complex behaviours. Necessary for implementing 'planets', 'rotator' etc.*/
         var positionDelta = pContainer.Positions[j] - pContainer.Positions[i];
         var distance = positionDelta.Length();
         var normalizedDistance = distance / rMax;
-        var forceMagnitude = rMax * forceFactor * _forceEquation.Compute(
-            normalizedDistance,
-            attractionMatrix[pContainer.Colours[i], pContainer.Colours[j]]
-        );
+        var pForce = _forceEquation.Compute(normalizedDistance, 
+                                            attractionMatrix[pContainer.Colours[i], pContainer.Colours[j]]);
+        var limitedPForce = Math.Clamp(pForce, -1f, 1f);        // Avoid particles on speed
+        var forceMagnitude = rMax * forceFactor * limitedPForce;
         var force = positionDelta / distance * forceMagnitude;
 
         return force;

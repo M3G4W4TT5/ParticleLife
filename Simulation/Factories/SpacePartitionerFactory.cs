@@ -11,7 +11,7 @@ public class SpacePartitionerFactory : ISpacePartitionerFactory
         return type switch
         {
             "FixedSizeGrid" => new FixedSizeGrid(rMax, particleCount),
-            // TODO: Add more partitioning methods: Octree for densely clustered particle systems. 
+            // TODO: Add more partitioning methods: Octree for densely clustered particle systems - fSGrid is no good.
             _ => throw new ArgumentException("Invalid space partitioner type", nameof(type))
         };
     }

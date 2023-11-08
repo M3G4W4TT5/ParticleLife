@@ -16,6 +16,7 @@ public class SimulationMode
     public float[,] AttractionMatrix { get; private set; }
     
     public event Action OnModeReloaded;
+    
     public void Reload()
     {
         OnModeReloaded?.Invoke();

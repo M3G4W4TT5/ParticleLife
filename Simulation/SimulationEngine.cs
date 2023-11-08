@@ -71,12 +71,13 @@ public class SimulationEngine : Game
             modeFactory.Create(FrameRate, "ParticleLife", "Random", "FixedSizeGrid"),
             modeFactory.Create(FrameRate, "ParticleLife", "Chains", "FixedSizeGrid"),
             modeFactory.Create(FrameRate, "ParticleLife", "Snake", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r", "Random", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r", "Chains", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r", "Snake", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r^2", "Random", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r^2", "Chains", "FixedSizeGrid"),
-            modeFactory.Create(FrameRate, "ParticleLife/r^2", "Snake", "FixedSizeGrid")
+            modeFactory.Create(FrameRate, "Magnetic", "Random", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "Predators", "Random", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "Coulomb", "Random", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "SineWave", "Snake", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "Elastic", "Random", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "VanDerWaals", "Random", "FixedSizeGrid"),
+            modeFactory.Create(FrameRate, "LennardJonesPotential", "Random", "FixedSizeGrid")
         };
 
         _modeManager = new ModeManager(modes);

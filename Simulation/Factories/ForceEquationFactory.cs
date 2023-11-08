@@ -11,8 +11,13 @@ public class ForceEquationFactory
         return type switch
         {
             "ParticleLife" => new ParticleLife(),
-            "ParticleLife/r" => new ParticleLifeDivR(),
-            "ParticleLife/r^2" => new ParticleLifeRSqrd(),
+            "Magnetic" => new Magnetic(),
+            "Predators" => new Predators(),
+            "VanDerWaals" => new VanDerWaals(),
+            "Coulomb" => new Coulomb(),
+            "SineWave" => new SineWave(),
+            "Elastic" => new Elastic(),
+            "LennardJonesPotential" => new LennardJonesPotential(),
             _ => throw new ArgumentException("Invalid force equation type", nameof(type))
         };
     }

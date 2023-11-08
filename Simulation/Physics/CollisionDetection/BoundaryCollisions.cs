@@ -4,7 +4,6 @@ namespace ParticleLifeSimulation.Simulation.Physics.CollisionDetection;
 
 public static class BoundaryCollisions
 {
-    // TODO: Verify boundary repulsion. Something is disrupting it.
     public static BoundaryCollisionResult Check(Vector2 position, float[] boundaries, float repulsionDistance)
     {
         return new BoundaryCollisionResult(

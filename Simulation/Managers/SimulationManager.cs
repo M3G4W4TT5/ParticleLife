@@ -102,7 +102,13 @@ public class SimulationManager
 
         if (KeyBoard.KeyHasBeenPressed(Keys.Enter))
         {
-            // TODO: A new attraction matrix should be set when reloading (if mode uses Random matrix)!
+            // TODO: If the current mode uses a random attraction matrix, reloading should generate a new random matrix.
+            /*
+             * This requires modification of the way attraction matrices are passed around.
+             * At the moment, matrices are created in SimulationEngine and added to their respective modes.
+             * Therefore, there's no direct way of regenerating random attraction matrices from here,
+             * also seeing that it is not currently possible to tell whether a given modes matrix is random or not.
+             */
             _particleManager.Reload();
             LogCurrentMode(_modeManager.CurrentMode);            // For debugging
         }
@@ -110,11 +116,13 @@ public class SimulationManager
         if (KeyBoard.KeyHasBeenPressed(Keys.Left))
         {
             _modeManager.SwitchToPreviousMode();
+            ReloadCurrentMode();
         }
 
         if (KeyBoard.KeyHasBeenPressed(Keys.Right))
         {
             _modeManager.SwitchToNextMode();
+            ReloadCurrentMode();
         }
     }
 }

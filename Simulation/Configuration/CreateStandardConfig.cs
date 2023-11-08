@@ -7,16 +7,17 @@ public static class CreateConfig
     public static SimulationConfig Standard(float frameRate)
     {
         var deltaT = 1f / frameRate;
-        var frictionFactor = (float)System.Math.Pow(0.5, deltaT / 0.025f);
+        var frictionHalfLife = 0.025f;
+        var frictionFactor = (float)System.Math.Pow(0.5, deltaT / frictionHalfLife);
 
         return new SimulationConfig(
             FrameRate: frameRate,
             DeltaT: deltaT,
-            FrictionHalfLife: 0.025f,
+            FrictionHalfLife: frictionHalfLife,
             RMax: 0.1f,
             FrictionFactor: frictionFactor,
             ForceFactor: 10f,
-            ParticleCount: 1000,
+            ParticleCount: 1000,        // Functional limit is a 500 with FixedSizedGrid and single thread. 
             ParticleColors: new [] {
                 Color.Red,
                 Color.Orange,
@@ -27,7 +28,7 @@ public static class CreateConfig
                 Color.Purple 
             },
             BoundaryRepulsionDistance: 0.05f,
-            BoundaryRepulsionForce: 0.0f,
+            BoundaryRepulsionForce: 0.01f,
             WorldBoundaries: new[] {0f, 1f}
         );
     }   

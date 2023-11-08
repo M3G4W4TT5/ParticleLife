@@ -94,8 +94,7 @@ public class ParticlePhysics
     
     private void ApplyPhysics(ParticlesContainer pContainer, int pIndex, Vector2 boundaryForce, Vector2 totalParticleForce)
     {   
-        // TODO: Verify (boundaryForce + totalParticleForce) * _deltaT and not boundaryForce + totalForce * _config.DeltaT;
-        var velocity = pContainer.Velocities[pIndex] * _frictionFactor + (boundaryForce + totalParticleForce) * _deltaT;
+        var velocity = pContainer.Velocities[pIndex] * _frictionFactor + boundaryForce + totalParticleForce * _deltaT;
         var position = pContainer.Positions[pIndex] + velocity * _deltaT;
         
         pContainer.Velocities[pIndex] = velocity;
