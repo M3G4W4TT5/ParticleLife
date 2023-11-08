@@ -1,6 +1,6 @@
 # Particle Life (WIP)
 
-![Particle Life](ParticleLifeDemo.gif)
+![Particle Life](https://github.com/4lexanderWatts/ParticleLife/blob/3df33f3932d1462595f80888dd8e5f0bdf13e8c2/Docs/ParticleLifeDemo.gif)
 
 ### _Simulating emergent behaviour from simple rules_
 
