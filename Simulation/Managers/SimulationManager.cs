@@ -102,6 +102,7 @@ public class SimulationManager
 
         if (KeyBoard.KeyHasBeenPressed(Keys.Enter))
         {
+            // TODO: A new attraction matrix should be set when reloading (if mode uses Random matrix)!
             _particleManager.Reload();
             LogCurrentMode(_modeManager.CurrentMode);            // For debugging
         }
