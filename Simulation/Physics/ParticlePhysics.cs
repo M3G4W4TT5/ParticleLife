@@ -47,20 +47,24 @@ public class ParticlePhysics
         _spacePartitioner.PerformPartition(pContainer.Positions);
     }
     
-    public void UpdateParticle(ParticlesContainer pContainer, int i)
+    public void UpdateParticle(ParticlesContainer pContainer)
     {
-        var boundaryCollisionResult = BoundaryCollisions.Check(pContainer.Positions[i], _worldBoundaries, _boundaryRepulsionDistance);
-        var boundaryCollisionForce = _forceCalculator.CalculateBoundaryForce(
-            boundaryCollisionResult, 
-            pContainer.Positions[i], 
-            _worldBoundaries,
-            _boundaryRepulsionDistance,
-            _boundaryRepulsionForce
-        );
-        
-        var totalParticleForce = CalculateTotalForce(pContainer, i);
-        
-        ApplyPhysics(pContainer, i, boundaryCollisionForce, totalParticleForce);
+        _spacePartitioner.PerformPartition(pContainer.Positions);
+        for (var i = 0; i < pContainer.Positions.Length; ++i)
+        {
+            var boundaryCollisionResult = BoundaryCollisions.Check(pContainer.Positions[i], _worldBoundaries, _boundaryRepulsionDistance);
+            var boundaryCollisionForce = _forceCalculator.CalculateBoundaryForce(
+                boundaryCollisionResult, 
+                pContainer.Positions[i], 
+                _worldBoundaries,
+                _boundaryRepulsionDistance,
+                _boundaryRepulsionForce
+            );
+            
+            var totalParticleForce = CalculateTotalForce(pContainer, i);
+            
+            ApplyPhysics(pContainer, i, boundaryCollisionForce, totalParticleForce);
+        }
     }
     
 
