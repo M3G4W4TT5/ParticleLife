@@ -17,7 +17,7 @@ public static class CreateConfig
             RMax: 0.1f,
             FrictionFactor: frictionFactor,
             ForceFactor: 10f,
-            ParticleCount: 1000,        // Functional limit is a 500 with FixedSizedGrid and single thread. 
+            ParticleCount: 500,        // Functional limit is a 500 with FixedSizedGrid and single thread. 
             ParticleColors: new [] {
                 Color.Red,
                 Color.Orange,

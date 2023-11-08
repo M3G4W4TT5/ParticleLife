@@ -9,17 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParticleLifeSimulation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ParticleLifeSimulation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation/Configuration/CreateStandardConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Configuration/CreateStandardConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Configuration/SimulationMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Configuration/SimulationMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Factories/ForceEquationFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Factories/ForceEquationFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation/Factories/SpacePartitionerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Factories/SpacePartitionerFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Managers/SimulationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Managers/SimulationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/CollisionDetection/BoundaryCollisions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Physics/CollisionDetection/BoundaryCollisions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/Force/Equations/ParticleLifeDivR.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/Force/Equations/ParticleLifeRSqrd.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/Force/ForceCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Physics/Force/ForceCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Physics/ParticlePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Physics/ParticlePhysics.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation/SimulationEngine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/SimulationEngine.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +110,7 @@
       <workItem from="1699386998052" duration="46000" />
       <workItem from="1699387646519" duration="724000" />
       <workItem from="1699390855677" duration="11633000" />
-      <workItem from="1699436973678" duration="13682000" />
+      <workItem from="1699436973678" duration="17264000" />
     </task>
     <servers />
   </component>

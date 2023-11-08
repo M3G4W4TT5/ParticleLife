@@ -1,0 +1,23 @@
+# Particle Life (WIP)
+
+![Particle Life](ParticleLifeDemo.gif)
+
+### _Simulating emergent behaviour from simple rules_
+
+#### About:
+This particle simulation is based on *Jeffrey Ventrella's 'Clusters'* and inspired by Tom Mohr's version. The goal is to create a light-weight and modifiable particle life simulation with the aim of accurately simulating physical phenomena.
+
+The project is still in it's early stages and as such it is not optimised, restricting the amount of simulation particles.
+#### Controls:
+
+- **Left / Right Arrow Keys:** Cycle simulation modes
+- **Enter:** Reset current simulation
+- **Escape:** Exit programme
+#### Built versions:
+
+#### Dependencies:
+- [MonoGame](https://github.com/MonoGame/MonoGame)
+    - [MonoGame.Content.Builder.Task](https://www.nuget.org/packages/MonoGame.Content.Builder.Task)
+        - `dotnet add package MonoGame.Content.Builder.Task --version 3.8.1.303`
+    - [MonoGame.Framework.DesktopGL](https://www.nuget.org/packages/MonoGame.Framework.DesktopGL)
+        -  `dotnet add package MonoGame.Framework.DesktopGL --version 3.8.1.303`
