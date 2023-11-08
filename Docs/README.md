@@ -14,7 +14,7 @@ The project is still in it's early stages and as such it is not optimised, restr
 - **Enter:** Reset current simulation
 - **Escape:** Exit programme
 #### Built versions:
-- [Windows 32-bit](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_win-x86.zip)
+- Windows [32](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_win-x86.zip)/[64](https://github.com/4lexanderWatts/ParticleLife/blob/c60747c3a258db457b5ac9c014ac711f59555416/Build/ParticleLife_v0.1_win-x64.zip)-bit
 - [Portable](https://github.com/4lexanderWatts/ParticleLife/blob/fff96e7430f2dbb49a7c29595d832ebff21e8559/Build/ParticleLife_v0.1_portable.zip)
 #### Dependencies:
 - [MonoGame](https://github.com/MonoGame/MonoGame)
