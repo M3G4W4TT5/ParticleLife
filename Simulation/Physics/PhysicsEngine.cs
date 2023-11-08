@@ -12,7 +12,8 @@ public class PhysicsEngine
     }
     
     public void Update(ParticlesContainer pContainer)
-    {
+    {    
+        // TODO: PerformSpacePartition and Loop should really be placed within ParticlePhysics.UpdateParticle
         _particlePhysics.PerformSpacePartitioning(pContainer);
         
         for (var i = 0; i < pContainer.Positions.Length; ++i)
