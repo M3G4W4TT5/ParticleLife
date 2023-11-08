@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="" />
+    <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +118,7 @@
       <workItem from="1699386998052" duration="46000" />
       <workItem from="1699387646519" duration="724000" />
       <workItem from="1699390855677" duration="11633000" />
-      <workItem from="1699436973678" duration="19723000" />
+      <workItem from="1699436973678" duration="22380000" />
     </task>
     <servers />
   </component>
