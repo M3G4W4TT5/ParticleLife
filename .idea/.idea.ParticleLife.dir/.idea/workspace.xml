@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="" />
+    <list default="true" id="87771648-e120-4c16-90c9-b68d6f0f6551" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParticleLife.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation/Configuration/SimulationMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Configuration/SimulationMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation/Managers/SimulationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Managers/SimulationManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

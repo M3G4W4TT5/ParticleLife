@@ -45,7 +45,7 @@ public class SimulationManager
         _modeManager.CurrentMode.OnModeReloaded += ReloadCurrentMode;
         
         // For debugging
-        LogCurrentMode(_modeManager.CurrentMode);       // Log the initial mode
+        LogCurrentMode(_modeManager.CurrentMode);           // Log the initial mode
     }
     
     // For debugging
@@ -103,6 +103,7 @@ public class SimulationManager
         if (KeyBoard.KeyHasBeenPressed(Keys.Enter))
         {
             _particleManager.Reload();
+            LogCurrentMode(_modeManager.CurrentMode);            // For debugging
         }
 
         if (KeyBoard.KeyHasBeenPressed(Keys.Left))

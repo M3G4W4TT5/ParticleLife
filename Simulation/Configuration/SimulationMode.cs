@@ -24,7 +24,7 @@ public class SimulationMode
     // For debugging
     public override string ToString()
     {
-        return $"Force Equation: {ForceEquation.Name}, Space Partitioner: {SpacePartitioner.Type}, Attraction Matrix: {GetMatrixString(AttractionMatrix)}";
+        return $"Force Equation: {ForceEquation.Name}, Space Partitioner: {SpacePartitioner.Type}, {GetMatrixString(AttractionMatrix)}";
     }
     
     public SimulationMode(
